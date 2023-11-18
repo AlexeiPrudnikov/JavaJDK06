@@ -48,7 +48,7 @@ public class Main {
             userChoice= random.nextInt(len);
             exp1.put(i, doors[userChoice]);
         }
-        System.out.println("Игрок меняет свой первоначальный выбор. Процент побед: " + getWinPersent(exp1, steps));
+        System.out.println("Игрок не меняет свой первоначальный выбор. Процент побед: " + getWinPersent(exp1, steps));
         int resultChoice = 0;
         HashMap<Integer, Boolean> exp2 = new HashMap<>();
         for (int i = 0; i < steps; i++) {
